@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+    <style>
+      * {
+        margin: 10px;
+        padding: 5px 0 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 1.Crea un formulario con un solo campo de texto para escribir un nombre,
+apellidos y un botón para enviarlo. -->
+    <h2>Ejercicio 1-2</h2>
+    <form action="">
+      <label for="name1">Nombre:</label><br />
+      <input
+        type="text"
+        required
+        maxlength="30"
+        id="name1"
+        name="name1"
+      /><br />
+      <label for="email2">Email:</label> <br />
+      <input type="email" required name="email2" id="email2" /> <br />
+
+      <input type="submit" />
+    </form>
+    <!--
+2. Añade al formulario anterior un campo para introducir un correo
+electrónico y haz que todo sean obligatorio. -->
+
+    <!--
+3. Crea un formulario con campos de texto para nombre y apellidos, un
+campo de tipo número para edad y un botón de envío.-->
+    <h2>Ejercicio 3</h2>
+    <form action="">
+      <label for="name3">Nombre:</label><br />
+      <input type="text" id="name3" name="name3" /> <br />
+      <label for="apellido3">Apellidos: <br /></label>
+      <input type="text" id="apellido3" name="apellido3" /> <br />
+      <label for="edad3">Edad: <br /></label>
+      <input type="number" id="edad3" name="edad3" /><br />
+      <input type="submit" />
+    </form>
+
+    <!--
+4. Diseña un formulario con tres botones de opción (radio) para elegir un
+color favorito: rojo, azul o verde.-->
+    <h2>Ejercicio 4</h2>
+    <form action="">
+      Tu color favorito:
+      <input type="radio" id="rojo" name="color-favorito" value="Rojo" />
+      <label for="rojo">Rojo</label>
+      <input type="radio" id="azul" name="color-favorito" value="Azul" />
+      <label for="azul">Azul</label>
+      <input type="radio" id="verde" name="color-favorito" value="Verde" />
+      <label for="verde">Verde</label>
+      <input type="submit" />
+    </form>
+
+    <!--
+5. Crea un formulario con casillas de verificación (checkbox) para
+seleccionar los hobbies del usuario (por ejemplo: leer, viajar, deporte).-->
+    <h2>Ejercicio 5</h2>
+    <form action="">
+      Selecciona tus hobbies:
+      <input type="checkbox" id="dibujar" name="dibujar" value="Dibujar" />
+      <label for="dibujar">Dibujar</label>
+      <input type="checkbox" id="Bailar" name="Bailar" value="Bailar" />
+      <label for="Bailar">Bailar</label>
+      <input type="checkbox" id="Viajar" name="Viajar" value="Viajar" />
+      <label for="Viajar">Viajar</label>
+      <input type="submit" />
+    </form>
+    <!--
+6. Crea un formulario con un menú desplegable (select) para elegir el país y
+un botón para enviar.
+  -->
+<h2>Ejercicio 6</h2>
+<form action="">
+<label for="select6">Selecciona tu ciudad:</label>
+<select name="select6" id="select6">
+  <option value="Paris">Paris</option>
+  <option value="Berlin">Berlin</option>
+  <option value="Madrid">Madrid</option>
+</select>
+<input type="submit">
+</form>
+
+  <!--
+7. Diseña un formulario que tenga un área de texto (textarea) donde el
+usuario pueda escribir un comentario y un botón de envío.
+-->
+<h2>Ejercicio 7</h2>
+<form action="">
+  <label for="textarea8">Comentarios:</label><br>
+<textarea name="textarea8" id="textarea8"></textarea><br>
+<input type="submit">
+</form>
+<!--
+8. Crea un formulario completo con: nombre, correo, género (radio), país
+(select) (introducir 5 paises mínimo) y comentario (textarea). Añade
+también un botón de reset. -->
+    <h2>Ejercicio 8</h2>
+    <form action="" method="get">
+      <label>
+        Nombre: <br />
+        <input
+          type="text"
+          required
+          maxlength="30"
+          placeholder="Pepito"
+          id="name"
+          name="name"
+        />
+      </label>
+      <br />
+      <label
+        >Apellido: <br />
+        <input required type="text" id="apellido" name="apellido" />
+      </label>
+      <br />
+      <label
+        >Edad: <br />
+        <input type="number" id="edad" name="edad" />
+      </label>
+      <br />
+      <label
+        >Correo: <br />
+        <input type="email" required name="email" id="email"
+      /></label>
+      <br />
+      Tu sexo <br>
+
+      <input type="radio" id="male" name="sexo" value="Hombre">
+      <label for="male">Masculino</label>
+      <input type="radio" id="female" name="sexo" value="Mujer">
+      <label for="female">Femenino</label>
+      <input type="radio" id="otros" name="sexo" value="Otros">
+      <label for="otros">Otro</label>
+
+      <br />
+      Tus actividades favoritas: <br>
+      <input type="checkbox" id="leer" name="leer" value="Leer" />
+      <label for="leer">Leer</label>
+      <br />
+      <input type="checkbox" id="nadar" name="nadar" value="Nadar" />
+      <label for="Nadar">Nadar</label>
+      <br />
+      <input type="checkbox" id="dormir" name="dormir" value="Dormir" />
+      <label for="dormir">Dormir</label>
+      <br />
+      <label for="ciudad">Tu ciudad:</label> <br>
+      <select name="ciudad" id="ciudad">
+        <option value="Paris">Paris</option>
+        <option value="Viena">Viena</option>
+        <option value="Madrid">Madrid</option>
+        <option value="Tokio">Tokio</option>
+        <option value="Nueva York">Nueva York</option>
+      </select>
+      <br />
+      <label for="mensaje">Opinión: <br /></label>
+      <textarea name="mensaje" id="mensaje" rows="10" cols="30"></textarea>
+      <br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>

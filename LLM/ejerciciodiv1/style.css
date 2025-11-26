@@ -1,0 +1,52 @@
+
+
+      /* Stilos de ejercicio */
+      h1{
+        color: royalblue;
+      }
+      h2{
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+      }
+      p{
+        margin-bottom: 15px;
+        color: #333;
+
+      }
+      ul{
+        list-style-type: square;
+        li{
+            color: darkgreen;
+        }
+      }
+      img{
+        width: 300px;
+        border: 3px black solid;
+      }
+      a{
+        color: red;
+      }
+      a:hover{
+        color: orange;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px 10px;
+      }
+      th{
+        background-color: lightgray;
+        padding: 8px;
+      }
+      td{
+        padding: 6px;
+      }
+      div{
+        margin: 10px;
+        padding: 10px;
+        background-color: blueviolet;
+        border: 2px solid black;
+      }
