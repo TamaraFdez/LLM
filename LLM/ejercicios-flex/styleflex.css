@@ -1,0 +1,73 @@
+
+/* PRIMER EJERCICIO */
+.primero ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    list-style: none;
+    padding: 0;
+}
+.primero ul li{
+    background-color: lightblue;
+    flex-grow: 1;
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+
+}
+.primero ul li a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    
+}
+/* SEGUNDO EJERCICIO */
+.segundo ul{
+    display: flex;
+    gap: 2px;
+    list-style: none;
+    padding: 0;
+    flex-direction: column;
+    width: max-content;
+    
+}
+.segundo ul li{
+    background-color: lightblue;
+    padding: 10px;
+    flex-grow: 0;
+
+}
+.segundo ul li a{
+    text-decoration: none;
+    color: black;
+    width: 100%;  
+    display: block; 
+    padding: 5px 10px;
+}
+
+/* TERCER EJERCICIO */
+.tercero ul{
+    display: flex;
+    gap: 2px;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+}
+.tercero ul li{
+    background-color: lightblue;
+    padding: 10px;
+    flex-grow: 1;
+    display: inline-block;
+}
+
+/* CUARTO EJERCICIO */
+
+.cuarto {
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

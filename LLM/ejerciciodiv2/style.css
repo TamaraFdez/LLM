@@ -36,14 +36,20 @@ body{
     height: 150px;
 }
 .parrafos{
+
     background-color: lightblue;
 }
 a{
     text-decoration: none;
 }
+.texto{
+    width: 80%;
+}
 .lista{
     margin: 20px;
     width: 20%;
-    height: 80%;
     float: left;
+    background-color: black;
+    padding: 20px;
+    color: aliceblue;
 }
