@@ -44,3 +44,28 @@ span{
     position: absolute;
     
    }
+   img{
+    float: left;
+   }
+   .columns{
+    display: flex;
+    flex-direction: row;
+    div{
+        width: 50%;
+    }
+   }
+   .caja9{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    
+   }
+   .ej1{
+        float: right;
+    }
+    .ej2{
+        position: absolute;
+        right: 0;
+    }
+   
+   
