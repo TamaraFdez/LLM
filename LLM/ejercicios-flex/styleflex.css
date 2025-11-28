@@ -1,73 +1,164 @@
 
 /* PRIMER EJERCICIO */
-.primero ul{
-    display: flex;
-    justify-content: space-between;
-    gap: 2px;
-    list-style: none;
-    padding: 0;
+.primero ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+  list-style: none;
+  padding: 0;
 }
-.primero ul li{
-    background-color: lightblue;
-    flex-grow: 1;
-    display: inline-block;
-    padding: 8px;
-    text-align: center;
-
+.primero ul li {
+  background-color: lightblue;
+  flex-grow: 1;
+  display: inline-block;
+  padding: 8px;
+  text-align: center;
 }
-.primero ul li a{
-    text-decoration: none;
-    color: black;
-    width: 100%;
-    
+.primero ul li a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
 }
 /* SEGUNDO EJERCICIO */
-.segundo ul{
-    display: flex;
-    gap: 2px;
-    list-style: none;
-    padding: 0;
-    flex-direction: column;
-    width: max-content;
-    
+.segundo ul {
+  display: flex;
+  gap: 2px;
+  list-style: none;
+  padding: 0;
+  flex-direction: column;
+  width: max-content;
 }
-.segundo ul li{
-    background-color: lightblue;
-    padding: 10px;
-    flex-grow: 0;
-
+.segundo ul li {
+  background-color: lightblue;
+  padding: 10px;
+  flex-grow: 0;
 }
-.segundo ul li a{
-    text-decoration: none;
-    color: black;
-    width: 100%;  
-    display: block; 
-    padding: 5px 10px;
+.segundo ul li a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  display: block;
+  padding: 5px 10px;
 }
 
 /* TERCER EJERCICIO */
-.tercero ul{
-    display: flex;
-    gap: 2px;
-    list-style: none;
-    padding: 0;
-    justify-content: space-between;
+.tercero ul {
+  display: flex;
+  gap: 2px;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
 }
-.tercero ul li{
-    background-color: lightblue;
-    padding: 10px;
-    flex-grow: 1;
-    display: inline-block;
+.tercero ul li {
+  background-color: lightblue;
+  padding: 10px;
+  flex-grow: 1;
+  display: inline-block;
 }
 
 /* CUARTO EJERCICIO */
 
 .cuarto {
-    width: 300px;
+  width: 300px;
+  height: 300px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* QUINTO-SEXTO EJERCICIO */
+.main {
+  display: flex;
+  gap: 2px;
+  height: 100vh;
+}
+.sidebar {
+  background-color: lightpink;
+  width: 25%;
+      
+  ul {
+    list-style: none;
+    width: 12vw;
+    li {
+        border-bottom: 1px solid rgb(53, 53, 53);
+        padding: 10px 5px;
+    a {
+      text-decoration: none;
+      color: black;
+    }}
+}
+  
+}
+.contenido {
+  width: 75%;
+  background-color: lightcoral;
+}
+.sidebar,
+.contenido {
+  padding: 12px 24px;
+}
+/* SEPTIMO-OCTAVO EJERCICIO */
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
     height: 300px;
-    background-color: lightblue;
+    
+    box-shadow: 1px 1px 5px 1px rgb(221, 220, 220);
+}
+.title{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 40px;
+}
+.cuerpo{
+    
+    flex-grow: 1;
+
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    height: 30px;
 }
 
+.contenedor{
+    width: 100vw;
+    display: flex;
+    flex-grow: 1;
+    gap: 5px;
+    margin: 5px;
+    justify-content: space-between;
+}
+/* NOVENO EJERCICIO */
+.noveno{
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+    margin: 2px;
+}
+.izquierda{
+    padding: 24px;
+    flex-grow: 1;
+    background-color: blueviolet;
+}
+.derecha{
+    padding: 24px;
+    background-color: red;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.fila{
+    flex-grow: 1;
+    background-color: hotpink;
+}
