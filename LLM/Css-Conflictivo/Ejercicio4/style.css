@@ -4,12 +4,72 @@
     --dark-purple: #7678bc;
     --lila:#ca8bf5;
     --dark-color: #3e4160;
+
 }
 body{
+    margin: 0;
+    padding: 0;
     color: var(--dark-color);
     background-color: var(--light-purple);
 }
+
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-color);
+    color: var(--light-purple);
+    align-items: center;
+    padding: 0 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: baseline;
+}
 .img-logo{
-    height: 90px;
+    height: 50px;
+    padding: 10px 0;
+}
+
+/* Main  */
+.presentacion{
+    display: flex;
+
+    img{
+        height: 500px;
+    }
+}
+.descripcion{
     padding: 10px;
+    text-align: center;
+    p{
+        text-align: left;
+    }
+}
+.estadisticas{
+    background-color: var(--dark-purple);
+    color: #9fdbe6;
+    display: flex;
+    gap: 15px;
+    
+}
+.estadisticas > article:nth-child(2){
+    background-color: var(--light-blue);
+    color: var(--dark-purple);
+    border: dashed 2px var(--dark-purple);
+}
+.estadisticas article{
+    padding: 20px;
+}
+/* Footer  */
+footer{
+    height: 30px;
+    background-color: var(--dark-color);
+    color: var(--light-purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
