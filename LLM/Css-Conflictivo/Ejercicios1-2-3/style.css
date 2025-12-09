@@ -1,0 +1,43 @@
+.contenedor-ej1 {
+  color: black;
+}
+.verde {
+  color: green;
+}
+.rojo {
+  color: red;
+}
+.contenedor {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+}
+.caja {
+  width: 100px;
+  height: 100px;
+  border: 4px black solid;
+}
+.contenedor > div:first-child {
+  border: 2px dashed blue;
+}
+.contenedor > div:nth-child(2) {
+  border: 2px dotted red;
+}
+
+.list {
+  li {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 10px 5px;
+    margin: 15px;
+    color: rgb(252, 137, 84);
+  }
+}
+.list-1 > li {
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.list-2 > li {
+  background-color: lightgreen;
+}

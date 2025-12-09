@@ -1,0 +1,15 @@
+:root{
+    --light-purple: #decfee;
+    --light-blue: #9fdbe6;
+    --dark-purple: #7678bc;
+    --lila:#ca8bf5;
+    --dark-color: #3e4160;
+}
+body{
+    color: var(--dark-color);
+    background-color: var(--light-purple);
+}
+.img-logo{
+    height: 90px;
+    padding: 10px;
+}
