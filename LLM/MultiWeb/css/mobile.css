@@ -1,0 +1,48 @@
+
+
+/* Seccion Info */
+
+#top-menu{
+    position: fixed;
+} 
+#showcase{
+    height: 100vh;
+    
+}
+
+#about-info {
+   flex-direction: column;
+   text-align: center;
+}
+
+
+ #info .info-img{
+    display: none;
+    flex: 0;
+ }
+ #info .info-content{
+    background-color: #333;
+    color: #fff;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    
+ }
+
+ /* Features */
+ #features{
+    display: flex;
+    flex-direction: column;
+ }
+ #features .box{
+    text-align: center;
+    padding: 20px;
+ }
+ #features .box i {
+    font-size: 5em;
+    margin-bottom: 1rem;
+ }
