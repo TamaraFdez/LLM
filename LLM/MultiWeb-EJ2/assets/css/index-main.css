@@ -1,0 +1,31 @@
+main > article:nth-child(1){
+    color: white;
+    background-color: rebeccapurple;
+    text-align: center;
+    padding: 40px 20px;
+}
+.filosofia{
+    display: flex;
+   
+}
+.filosofia section{
+    flex: 1;
+    padding: 10px;
+}
+.img-filosofia{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/index/nuestra-filosofia.png);
+}
+.diferentes{
+   background: url(../img/index/diferentes.jpg) no-repeat center center / cover;
+   color: rgb(255, 255, 255);
+   padding: 30px;
+   text-shadow: 1px 1px 2px rgb(78, 0, 78);
+   ul{
+    list-style: none;
+   }
+}
+.mision{
+    padding: 20px;
+}

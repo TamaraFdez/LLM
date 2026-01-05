@@ -1,0 +1,163 @@
+
+:root{
+    --primary-color: 
+}
+/* reset minimo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7rem;
+   
+}
+body{
+  
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+.grueso{
+    font-weight: 900;
+}
+h2{
+    padding: 20px;
+}
+h1{
+    padding: 5px;
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 100dvh;
+}
+nav{
+    background-color:#eee;
+    color: rebeccapurple;
+    text-align: center;
+
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+   li{
+    a{
+         color: violet;
+
+    }
+    a:hover{
+        color: rebeccapurple;
+  text-shadow: 0 0 10px #7f5af0;
+    }
+   }
+}
+.active{
+    color: violet;
+    font-weight: 800;
+
+}
+.showcase{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+align-items: center;
+text-align: center;
+
+   background-image: url(../img/Showcase.png);
+}
+
+.slogan{
+    color: white;
+}
+
+/* Main */
+
+/* Cards */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.card {
+  background: #1e1e2f;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(138, 43, 226, 0.3); /* RebeccaPurple glow */
+  width: 300px;
+  text-align: center;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px rgba(0, 191, 255, 0.5); /* Azul LED glow */
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #c9a0dc; /* tono rebecca purple claro */
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+/* Footer */
+footer {
+  background: #1e1e2f;
+  color: #c084f5; /* violeta suave */
+  padding: 20px 0;
+  text-align: center;
+  border-top: 2px solid rgba(138, 43, 226, 0.4);
+  box-shadow: 0 -5px 20px rgba(138, 43, 226, 0.3);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+}
+
+.social a {
+  color: #c084f5;
+  margin: 0 10px;
+  font-size: 1.3rem;
+  transition: 0.3s ease;
+}
+
+.social a:hover {
+  color: #7f5af0;
+  text-shadow: 0 0 10px #7f5af0;
+}
+
