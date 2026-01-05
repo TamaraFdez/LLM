@@ -46,3 +46,9 @@ main > article:nth-child(1){
 .mision{
     padding: 20px;
 }
+.mapa-ubicacion {
+  width: 100%; 
+}
+.titulo-mapa{
+    text-align: center;
+}
