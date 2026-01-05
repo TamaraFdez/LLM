@@ -1,3 +1,12 @@
+article:not(.filosofia){
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 1080px; */
+    margin: auto;
+}
 main > article:nth-child(1){
     color: white;
     background-color: rebeccapurple;
@@ -6,11 +15,19 @@ main > article:nth-child(1){
 }
 .filosofia{
     display: flex;
+    flex-direction: row;
+    height: 400px;
+       /* max-width: 1080px; */
+    margin: auto;
    
 }
 .filosofia section{
     flex: 1;
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .img-filosofia{
     background-position: center;
