@@ -22,6 +22,7 @@ body {
 header {
     background: #222;
     padding: 15px 0;
+    
 }
 
 .nav {
@@ -59,6 +60,7 @@ header {
     margin: auto;
     padding: 30px 20px;
     flex: 1;
+    
 }
 
 h2 {
@@ -72,6 +74,7 @@ section {
 img {
     max-width: 100%;
     border-radius: 10px;
+    width: 50%;
 }
 /* Formulario */
 .formulario {
@@ -119,6 +122,12 @@ img {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.img-contact{
+     display: block;
+    margin: 0 auto;
+
 }
 
 footer {
