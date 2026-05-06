@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comanda numero="1">
+    <cliente>Alvaro</cliente>
+    <direccion> Valle del nalon numero 5</direccion>
+    <productos >
+        <producto codi="20129">
+            <nombre>Auriculares Sony</nombre>
+            <cantidad>3</cantidad>
+        </producto>
+         <producto codi="1029">
+            <nombre>Esponja de Baño</nombre>
+            <cantidad>15</cantidad>
+            <descuento />
+        </producto>
+    </productos>
+</comanda>

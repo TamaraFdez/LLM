@@ -1,0 +1,91 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="cataleg">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="cotxe" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="marca">
+                             <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:minLength value="2"></xs:minLength>
+                                   
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="model" >
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:minLength value="1"></xs:minLength>
+                                   
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="any">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:integer">
+                                    <xs:minInclusive value="1990"></xs:minInclusive>
+                                    <xs:maxInclusive value="2025"></xs:maxInclusive>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="preu">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:decimal">
+                                    <xs:minExclusive value="0"></xs:minExclusive>
+                                   
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="extres" minOccurs="0" maxOccurs="1" >
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="extra" minOccurs="0" maxOccurs="unbounded">
+                                        <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:minLength value="2"></xs:minLength>
+                                   
+                                </xs:restriction>
+                            </xs:simpleType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+
+
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:string" use="required"/>
+                    <xs:attribute name="combustible"  use="optional">
+                        <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="gasolina"></xs:enumeration>
+                                    <xs:enumeration value="diesel"></xs:enumeration>
+                                    <xs:enumeration value="hibrid"></xs:enumeration>
+                                    <xs:enumeration value="electric"></xs:enumeration>
+                                   
+                                </xs:restriction>
+                            </xs:simpleType>
+                    </xs:attribute>
+                    <xs:attribute name="estat"  use="optional" default="disponible">
+                         <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="disponible"></xs:enumeration>
+                                    <xs:enumeration value="reservat"></xs:enumeration>
+                                    <xs:enumeration value="venut"></xs:enumeration>
+                            
+                                   
+                                </xs:restriction>
+                            </xs:simpleType>
+                    </xs:attribute>
+                    <xs:attribute name="moneda" type="xs:string" fixed="EUR" use="optional"/>
+
+
+                </xs:complexType>
+            
+            </xs:element>
+        </xs:sequence>
+        
+    </xs:complexType>
+</xs:element>
+</xs:schema>

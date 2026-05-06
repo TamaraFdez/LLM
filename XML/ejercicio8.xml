@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Receta de cupcakes molones -->
+<receta tipos="postres">
+    <nombre>Cupcakes de chocolate</nombre>
+    <tiempo>180 minutos</tiempo>
+    <ingredientes>
+        <ingrediente>Harina</ingrediente>
+        <ingrediente>Huevo</ingrediente>
+        <ingrediente>Chocolate</ingrediente>
+    </ingredientes>
+    <pasos>
+        <paso>Mezclar</paso>
+        <paso>Al horno!</paso>
+    </pasos>
+</receta>

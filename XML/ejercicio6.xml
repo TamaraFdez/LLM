@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Comentario antes del contenido -->
+<llibres>
+    <llibre id="L1">
+        <titulo>
+            Mi primer Libro
+        </titulo>
+        <autor>Amsim Oy</autor>
+        <any>2018</any>
+        <prestec/>
+    </llibre>
+    <llibre id="L2">
+        <titulo>
+            Un libro fabuloso: la secuela
+        </titulo>
+        <autor>Amsim Oy Oveun Ed</autor>
+        <any>2020</any>
+        
+    </llibre>
+</llibres>

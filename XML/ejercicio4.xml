@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas>
+    <pelicula id="P1">
+        <titulo>Inception</titulo>
+        <director>Christopher Nolan</director>
+     </pelicula>
+    <pelicula id="P2">
+        <titulo>Coco</titulo>
+        <director>Lee Unkrich</director> 
+    </pelicula>      
+</peliculas>
